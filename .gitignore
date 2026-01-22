@@ -2,8 +2,17 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
-# Build folder for Swift-DocC
+# Build folders for Swift-DocC
 TSPLGER.docc/.docc-build
+.DS_Store
+.docc-build
+.swiftpm
+/.build
+/Package.resolved
+/TSPL.docc/header.html
+/TSPL.docc/ReferenceManual/SummaryOfTheGrammar.md
+/swift-book
+/output
 
 ## User settings
 xcuserdata/
